@@ -1,3 +1,13 @@
+/*
+This program is to create a window with some functions
+1. adding buttons;
+2. adding labels
+3. adding text fields and text areas
+4. adding item selectors(checkbox, combobox, list)
+5. adding radio buttons, more components(JSlider/JProgressBar/JMenuBar)are available in javax.swing
+*/
+
+
 import javax.swing.*;
 import java.time.LocalDateTime;
 
@@ -52,11 +62,6 @@ public class Window extends JFrame {
     JRadioButton rad3 = new JRadioButton( "White" ) ;
 
     ButtonGroup wines = new ButtonGroup() ;
-
-    //6. arranging components
-
-    //7. changing appearance
-
 
     public Window(){
         super("Swing Window");
